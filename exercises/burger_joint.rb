@@ -1,0 +1,10 @@
+# Suppose we're designing an point-of-sale and order-tracking system for a new burger joint. It is a small joint and it only sells 4 options for combos: Classic Single Combo (hamburger with one patty), Classic Double With Cheese Combo (2 patties), and Classic Triple with Cheese Combo (3 patties), Avant-Garde Quadruple with Guacamole Combo (4 patties). We shall encode these combos as 1, 2, 3, and 4 respectively. Each meal can be biggie-sized to acquire a larger box of fries and drink. A biggie-sized combo is represented by 5, 6, 7, and 8 respectively, for combos 1, 2, 3, and 4 respectively.
+# (a) Write a function named biggie_size which when given a regular combo returns a biggie-sized version.
+# (b) Write a function named unbiggie_size which when given a biggie-sized combo returns a non-biggie-sized version.
+# (c) Write a function named is_biggie_size which when given a combo, returns true if the combo has been biggie-sized and false otherwise.
+# (d) Write a procedure named combo_price which takes a combo and returns the price of the combo. Each patty costs $1.17, and a biggie-sized version costs $.50 extra overall.
+# (e) An order is a collection of combos. We'll encode an order as each digit representing a combo. For example, the order 237 represents a Double, Triple, and biggie-sized Triple.
+# Write a procedure named empty_order which takes no arguments and returns an empty order which is represented by 0.
+# (f) Write a procedure named add_to_order which takes an order and a combo and returns a new order which contains the contents of the old order and the new combo. For example, add_to_order(1, 2) -> 12.
+# (g) Write a procedure named order_size which takes an order and returns the number of combos in the order. For example, order-size(237) -> 3. 
+# (h) Write a procedure named order_cost which takes an order and returns the total cost of all the combos. (Hint: http://stackoverflow.com/questions/3517238/what-does-the-operator-do-in-ruby-in-n-2 )
