@@ -12,3 +12,7 @@
 # Write a function that takes in an array of integers, and return the number of negative integers
 
 # Fibonacci: Write a function that takes in an argument x, and returns the xth Fibonacci number
+
+# Deﬁne a function `unique_pairs` that, given an integer `n`, generates an array of arrays `[i, j]` with 1 ≤ j < i ≤ n.
+# eg. unique_pairs(2) -> [[2, 1]], unique_pairs(3) -> [[2, 1], [3, 1], [3,2]]
+
